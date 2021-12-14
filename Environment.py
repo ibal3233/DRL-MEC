@@ -1,8 +1,0 @@
-parser.add_argument("--num_glob_iters", type=int, default=200)
-parser.add_argument("--local_epochs", type=int, default=20)
-parser.add_argument("--num_selected_users", type=int, default=30, help="Number of Users per round")
-parser.add_argument("--batch_num", type=int, default=1, help="number of batches in each local iteration")
-parser.add_argument("--times", type=int, default=3, help="running time")
-parser.add_argument("--device", type=str, default="cpu", choices=["cpu","cuda"], help="run device (cpu | cuda)")
-parser.add_argument("--result_path", type=str, default="results_new20", help="directory path to save results")
-parser.add_argument("--lamda", type=int, default=0.5, help="Regularization term")
